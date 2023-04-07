@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MAMACO KING</title>
+    <link href="site.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: chocolate;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      
+      h1, h2, h3 {
+        color: white;
+        margin: 0;
+      }
+      
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+      
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        margin-right: 10px;
+      }
+      
+      input, select {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+      }
+      
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+        <h1> MAMACO KING</h1>
+        <h2> QUEIMA DE ESTOQUE </h2>
+         <h3>VOLTA ÀS AULAS </h3>
+     </header>
+
+     <body>
+     
+        <h4>Se cadastre em nossa loja abaixo: </h4>
+
+        <form>
+            <label for="nome"> Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <placeholder="Preencha aqui seu nome"><br></br>
+ 
+    <label for="nasc"> Data de nascimento: </label>
+        <input type="date" name="Data de nascimento" id="Nasc">
+        <placeholder="Preencha aqui sua idade"><br></br>
+
+        <label for="Email"> Email: </label>
+        <input type="email" Nome="Email" id="email">
+        </placeholder = "Preencha aqui seu Email"></br></br>
+
+        <label for="Endereco"> Endereço 1: </label>
+        <input type="text" name="Endereco 1" id="Endereco">
+        </placeholder = "Preencha sua cidade"> </br></br>
+
+        <label for="Endereco"> Endereço 2: </label>
+        <input type="text" name="Endereco 1" id="Endereco">
+        </placeholder = "Preencha seu endereço"></br></br>
+
+        <label for="Estado"> Qual seu Estado</label><br/>
+        <select name="estado" id="estado">
+
+        <option value="Acre"> AC </option>
+        <option value="Alagoas"> AL </option>
+        <option value="Amapá"> AP </option>
+        <option value="Amazonas"> AM </option>
+        <option value="Bahia"> BA </option>
+        <option value="Ceará"> CE </option>
+        <option value="Espírito Santo"> ES </option>
+        <option value="Maranhão"> MA </option>
+        <option value="Mato Grosso"> MT </option>
+        <option value="Mato Grosso do Sul"> MS </option>
+        <option value="Paraíba"> PB </option>
+        <option value="Pará"> PA </option>
+        <option value="Paraná"> PA </option>
+        <option value="Pernambuco"> PE </option>
+        <option value="Piauí"> PI </option>
+        <option value="Rio de Janeiro"> RJ </option>
+        <option value="Rio Grande do Norte"> RN </option>
+        <option value="Rio Grande do Sul"> RS </option>
+        <option value="Rondônia"> RO </option>
+        <option value="Roraima"> RR </option>
+        <option value="Santa Catarina"> SC </option>
+        <option value="São Paulo"> SP </option>
+        <option value="Sergipe"> SE </option>
+        <option value="Tocantins"> TO </option> <br/>
+
+        </select> <br/> <br/>
+
+        <label for="CPF"> CPF: </label>
+        <input type="text" name="CPF" id="cpf">
+        </placeholder = "Preencha seu CPF"></br></br>
+
+        <label for="passowd"> Digita sua senha: </label>
+        <input type="password" password="senha" id="senha"><br></br>
+
+        <input type="button" value="Enviar"> <br/><br/>
+        
+        <a href="../Aula 3/Site.html">Voltar à pagina principal</a>  <br/><br/>
+ 
+        
+
+
+            <div>
+            <a href="https://www.linkedin.com/in/raulferrazj/" target="_blank">Linkedln</a>
+            <div>
+                <p> Raul Ferraz ¨&copy; 2023 </p>
+    
+    </Body>
+    
+    </Html>
